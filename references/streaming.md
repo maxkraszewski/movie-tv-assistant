@@ -27,7 +27,7 @@ Always use these short names in UPPERCASE:
 | Disney+ / Disney Plus | DISNEY |
 | Amazon Prime Video | AMAZON |
 | Apple TV+ | APPLE |
-| HBO Max / Max | MAX |
+| HBO Max / Max | HBO |
 | Paramount+ | PARAMOUNT |
 | Star+ | STAR |
 | Crunchyroll | CRUNCHYROLL |
