@@ -62,7 +62,7 @@ If the prefix is present, treat everything after it as the title to look up.
 4. **Build the card** — use the exact template from `references/formats.md`.
 5. **Streaming lookup** — read `references/streaming.md` for platform rules, then search
    `[title] streaming Argentina` to fill the PLATFORM field.
-6. **Return the card** — output only the formatted card. Nothing before, nothing after.
+6. **Return the card** — output only the formatted card wrapped in a code block (triple backticks). Nothing before the opening backticks, nothing after the closing backticks.
 
 ## Title Normalization
 
@@ -73,7 +73,7 @@ If the prefix is present, treat everything after it as the title to look up.
 ## What NOT to Do
 
 - Do not add any text before or after the formatted card.
-- Do not use bullet points, bold, italics, or markdown formatting within the card.
+- Do not use bullet points, bold, italics, or markdown formatting within the card (the outer code block is the only markdown allowed).
 - Do not include ratings, plot summaries, directors, or any fields not specified above.
 - Do not ask follow-up questions, EXCEPT for disambiguation when multiple matches exist.
 - Do not explain your process or mention that you searched.

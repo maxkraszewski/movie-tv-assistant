@@ -12,6 +12,7 @@ TV: El hombre infiltrado
 ```
 
 **Output:**
+````
 ```
 TV SHOW NAME: A MAN ON THE INSIDE
 GENRE: COMEDY, DRAMA
@@ -21,6 +22,7 @@ SEASONS AND EPISODES:
 - Season 2: 8 episodes (Expected in 2025)
 PLATFORM: NETFLIX
 ```
+````
 
 Note: Spanish title is translated to the official English title. Season 2 uses "Expected"
 since it hasn't aired yet.
@@ -35,6 +37,7 @@ TV: Slow Horses
 ```
 
 **Output:**
+````
 ```
 TV SHOW NAME: SLOW HORSES
 GENRE: ESPIONAGE, DRAMA, BLACK COMEDY
@@ -46,6 +49,7 @@ SEASONS AND EPISODES:
 - Season 4: 6 episodes (September 4, 2024 – October 9, 2024)
 PLATFORM: APPLE TV+
 ```
+````
 
 Note: Each season has its own line with episode count and full date range.
 
@@ -59,6 +63,7 @@ TV: Severance
 ```
 
 **Output:**
+````
 ```
 TV SHOW NAME: SEVERANCE
 GENRE: DRAMA, SCIENCE FICTION, THRILLER
@@ -69,6 +74,7 @@ SEASONS AND EPISODES:
 - Season 3: Renewed
 PLATFORM: APPLE TV+
 ```
+````
 
 Note: Season 3 is confirmed but has no date — listed as "Renewed" without inventing dates.
 
