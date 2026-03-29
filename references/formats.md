@@ -1,19 +1,21 @@
 # Output Formats
 
+Every response must be a single fenced code block (triple backticks) containing the card.
+No text outside the code block.
+
 ## Movie Card
 
-When the command is `Movie: [title]`, respond with exactly this structure wrapped in a
-code block (triple backticks), and nothing else:
+When the command is `Movie: [title]`, your entire response looks exactly like this:
 
-````
-```
-MOVIE NAME: [OFFICIAL ENGLISH TITLE IN UPPERCASE]
-GENRE: [UP TO 3 GENRES, COMMA-SEPARATED, UPPERCASE]
-CAST: [3 MAIN ACTORS, COMMA-SEPARATED, UPPERCASE]
-RELEASE YEAR: [4-DIGIT YEAR]
-PLATFORM: [STREAMING PLATFORM IN ARGENTINA, IF KNOWN]
-```
-````
+    ```
+    MOVIE NAME: [OFFICIAL ENGLISH TITLE IN UPPERCASE]
+    GENRE: [UP TO 3 GENRES, COMMA-SEPARATED, UPPERCASE]
+    CAST: [3 MAIN ACTORS, COMMA-SEPARATED, UPPERCASE]
+    RELEASE YEAR: [4-DIGIT YEAR]
+    PLATFORM: [STREAMING PLATFORM IN ARGENTINA, IF KNOWN]
+    ```
+
+That's it. Nothing before the opening ```, nothing after the closing ```.
 
 ### Field Rules — Movies
 
@@ -28,21 +30,20 @@ PLATFORM: [STREAMING PLATFORM IN ARGENTINA, IF KNOWN]
 
 ## TV Show Card
 
-When the command is `TV: [title]`, respond with exactly this structure wrapped in a
-code block (triple backticks), and nothing else:
+When the command is `TV: [title]`, your entire response looks exactly like this:
 
-````
-```
-TV SHOW NAME: [OFFICIAL ENGLISH TITLE IN UPPERCASE]
-GENRE: [UP TO 3 GENRES, COMMA-SEPARATED, UPPERCASE]
-CAST: [3 MAIN ACTORS, COMMA-SEPARATED, UPPERCASE]
-SEASONS AND EPISODES:
-- Season 1: [# episodes] ([air date or date range])
-- Season 2: [# episodes] ([air date or date range])
-...
-PLATFORM: [STREAMING PLATFORM IN ARGENTINA, IF KNOWN]
-```
-````
+    ```
+    TV SHOW NAME: [OFFICIAL ENGLISH TITLE IN UPPERCASE]
+    GENRE: [UP TO 3 GENRES, COMMA-SEPARATED, UPPERCASE]
+    CAST: [3 MAIN ACTORS, COMMA-SEPARATED, UPPERCASE]
+    SEASONS AND EPISODES:
+    - Season 1: [# episodes] ([air date or date range])
+    - Season 2: [# episodes] ([air date or date range])
+    ...
+    PLATFORM: [STREAMING PLATFORM IN ARGENTINA, IF KNOWN]
+    ```
+
+That's it. Nothing before the opening ```, nothing after the closing ```.
 
 ### Field Rules — TV Shows
 
